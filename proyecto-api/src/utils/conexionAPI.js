@@ -1,23 +1,6 @@
-import { json } from "react-router-dom"
+import axios from "axios";
 
-
-const API = "https://randomuser.me/api/" 
-
-
-export const  get=(path)=>{
-
-    return( fetch(API+path))
-   .then((result)=>result.json())      
-}
-
-
-/* export const getAxios = async (path) => {
-  try {
-    let resPost = await axios(
-      `https://randomuser.me/api//${path}`
-    );   
-    } catch (error) {
-      console.log(error);
-    }
-  }; */
-  
+export const obtenerDatosAxios = () => {
+  const url = "https://randomuser.me/api/";
+  return axios.get(url);
+};
