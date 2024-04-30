@@ -1,9 +1,9 @@
+import BasicCard from '../utils/BasicCard';
 
-
-const Home = () => {
-    return 
-      
-    ;
-  };
-  
-  export default Home;
+export function Home() {
+  return (
+    <div>
+      <BasicCard />
+    </div>
+  );
+}
