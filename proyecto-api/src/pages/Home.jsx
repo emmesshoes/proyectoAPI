@@ -1,5 +1,4 @@
-import React from 'react';
-import CardUsuarioRandom from "../cardUsuaroRandom";
+import CardUsuarioRandom from "../cardUsuarioRandom";
 import BasicCard from '../utils/BasicCard';
 import { Container } from '@mui/material';
 
