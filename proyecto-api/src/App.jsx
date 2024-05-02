@@ -1,9 +1,6 @@
  import {useState}  from 'react';
 // import { Home } from "./pages/Home";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import SearchComponent from "./SearchComponent";
-// import DetailsComponent from "./DetailsComponent";
-
 
 
 // const App = () => {
@@ -42,8 +39,7 @@ const App = () => {
   return (
     <div>
       <SearchComponent onSearch={handleSearch} /> {/* Pasando handleSearch como onSearch */}
-    
-    
+     
       <DetailsComponent persona={selectedPersona} />
     </div>
   );

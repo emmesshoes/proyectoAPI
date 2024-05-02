@@ -11,8 +11,7 @@ const DetailsComponent = ({ persona }) => {
           <p>Nombre: {persona.name.first} {persona.name.last}</p>
           <p>Género: {persona.gender}</p>
           <p>Nacionalidad: {persona.nat}</p>
-          {/* Otros detalles que desees mostrar */}
-        </div>
+         </div>
       )}
     </div>
   );
@@ -28,9 +27,8 @@ DetailsComponent.propTypes = {
       last: PropTypes.string.isRequired,
     }).isRequired,
     gender: PropTypes.string.isRequired,
-    
     nat: PropTypes.string.isRequired,
-    // Puedes agregar más validaciones según las propiedades de la persona
+    
   }),
 };
 

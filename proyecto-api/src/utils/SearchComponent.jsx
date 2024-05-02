@@ -21,7 +21,7 @@ const SearchComponent = ({ onSearch }) => {
       });
   };
 
-        // Seleccionar la primera persona después de filtrar
+       
     
   return (
     <div>
