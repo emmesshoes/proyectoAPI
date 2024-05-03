@@ -1,17 +1,16 @@
 import React from 'react';
-import CardUsuarioRandom from "../cardUsuaroRandom";
-import BasicCard from '../utils/BasicCard';
-import { Container } from '@mui/material';
+import{getAuth,signOut} from"firebase/auth"
+import appFirebase from '../utils/credenciales';
+
+const auth = getAuth(appFirebase)
 
 export function Home() {
   return (
     <>
-     <CardUsuarioRandom />
-     <CardUsuarioRandom />
-    <Container maxWidth="sm">
-    <BasicCard />
-    </Container></>
+   <h1>BIENVENIDO</h1>
+   <button onClick={()=>signOut(auth)}>logOut</button>
+   </>
    
   );
 }
-
+export default Home
