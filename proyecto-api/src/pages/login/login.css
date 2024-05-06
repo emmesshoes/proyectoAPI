@@ -1,0 +1,17 @@
+.container{
+
+
+    background-color: aquamarine;
+;}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    max-width: 720px;
+    height: 160px;
+    margin: 9% 0;
+    padding: 0px 35% 0 0;
+    align-content: center;
+    text-align: left;
+}
+  

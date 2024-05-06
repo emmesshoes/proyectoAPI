@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+   
+}
+
 body{
     background-color: white;
+    margin: 0;
+}
+
+.contenedorLogin{
+    background-color: wheat;
+    height: 100vh;
 }
